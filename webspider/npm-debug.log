@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-gui' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.20
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn invalid config proxy=""
+6 warn invalid config Must be a full url with 'http://'
+7 warn package.json webspider@0.0.0 No description
+8 warn package.json webspider@0.0.0 No repository field.
+9 warn package.json webspider@0.0.0 No README data
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'node-gui', null ]
+12 verbose cache add name=undefined spec="node-gui" args=["node-gui",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'node-gui',
+13 verbose parsed url   path: 'node-gui',
+13 verbose parsed url   href: 'node-gui' }
+14 silly lockFile 18abe16a-node-gui node-gui
+15 verbose lock node-gui C:\Users\Gildas\AppData\Roaming\npm-cache\18abe16a-node-gui.lock
+16 silly lockFile 18abe16a-node-gui node-gui
+17 silly lockFile 18abe16a-node-gui node-gui
+18 verbose addNamed [ 'node-gui', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile ee836a73-node-gui node-gui@
+21 verbose lock node-gui@ C:\Users\Gildas\AppData\Roaming\npm-cache\ee836a73-node-gui.lock
+22 silly addNameRange { name: 'node-gui', range: '*', hasData: false }
+23 verbose url raw node-gui
+24 verbose url resolving [ 'https://registry.npmjs.org/', './node-gui' ]
+25 verbose url resolved https://registry.npmjs.org/node-gui
+26 info trying registry request attempt 1 at 12:00:20
+27 http GET https://registry.npmjs.org/node-gui
+28 http 404 https://registry.npmjs.org/node-gui
+29 silly registry.get cb [ 404,
+29 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+29 silly registry.get     date: 'Fri, 18 Oct 2013 10:00:17 GMT',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'content-length': '52',
+29 silly registry.get     'cache-control': 'must-revalidate' } ]
+30 silly lockFile ee836a73-node-gui node-gui@
+31 silly lockFile ee836a73-node-gui node-gui@
+32 error 404 'node-gui' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404
+32 error 404 Maybe try 'npm search gui'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Windows_NT 6.1.7601
+34 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-gui"
+35 error cwd C:\Users\Gildas\CoursSIL\Cours\Javascript\tpJs\webspider
+36 error node -v v0.10.20
+37 error npm -v 1.3.11
+38 error code E404
+39 verbose exit [ 1, true ]
