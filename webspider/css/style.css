@@ -1,0 +1,194 @@
+
+	* {
+		/*Création d'un curseur bleu*/
+		cursor:url("..\\img\\cur\\curseurBleu.cur"), pointer;
+	}
+
+
+	body {
+		background-color:#333334;
+		color:white;	
+	}
+
+	#pageGlobal{
+		position:relative;
+		width:1250px;
+		margin: 0 auto;
+	
+		/*arrondis les bords, rajoute la couleur de fond, et rajoute une ombre*/
+		border-radius: 20px;
+		background: -moz-linear-gradient(#51C3FA, rgba(50, 20, 100, 0.3));
+		background: -webkit-linear-gradient(#51C3FA, rgba(50, 20, 100, 0.3));
+		background:    -moz-linear-gradient(#51C3FA, rgba(50, 20, 100, 0.3));
+		background:     -ms-linear-gradient(#51C3FA, rgba(50, 20, 100, 0.3));
+		background:      -o-linear-gradient(#51C3FA, rgba(50, 20, 100, 0.3));
+		background: 	    linear-gradient(#51C3FA, rgba(50, 20, 100, 0.3));
+	
+	
+		box-shadow: 0px 0px 18px 20px rgba(20, 20, 20, 0.84);
+		-moz-box-shadow: 0px 0px 18px 20px rgba(20, 20, 20, 0.84);
+		-webkit-box-shadow: 0px 0px 18px 20px rgba(20, 20, 20, 0.84);
+	
+	}
+
+	#pageGlobal:hover{
+		background: -moz-linear-gradient(#51C3FA, rgba(50, 20, 100, 0.8));
+		background: -webkit-linear-gradient(#51C3FA, rgba(50, 20, 100, 0.8));
+		background:    -moz-linear-gradient(#51C3FA, rgba(50, 20, 100, 0.8));
+		background:     -ms-linear-gradient(#51C3FA, rgba(50, 20, 100, 0.8));
+		background:      -o-linear-gradient(#51C3FA, rgba(50, 20, 100, 0.8));
+		background: 	    linear-gradient(#51C3FA, rgba(50, 20, 100, 0.8));	
+	}
+
+	header{
+		position:relative;
+		margin-top:5px;
+		margin-left:5px;
+	}
+
+
+	#url{
+		position:relative;
+		float: left;
+		border:2px solid;
+		border-radius:5px;
+		margin-left: 10px;
+		margin-top:40px;
+		margin-bottom:40px;
+		width:800px;
+		height:600px;
+		padding-bottom:5px;
+
+		box-shadow: 0px 0px 18px 11px rgba(37, 37, 37, 0.84);
+		-moz-box-shadow: 0px 0px 18px 11px rgba(37, 37, 37, 0.84);
+		-webkit-box-shadow: 0px 0px 18px 11px rgba(37, 37, 37, 0.84);
+	}
+
+	#entete{
+		background-color:#4c61e0;
+		height:50px;
+		width:100%;
+	}
+	#entete:hover{
+		font-size:120%;
+	}
+
+	#corp{
+		overflow-y:scroll;
+		height:550px;
+		width:100%;
+	
+	}
+
+	#infoUrl{
+		position:relative;
+		float: right;
+		border:2px solid;
+		border-radius:5px;
+		margin-right: 10px;
+		margin-top:40px;
+		margin-bottom:40px;
+		width:400px;
+		height:600px;
+		padding-bottom:5px;
+
+		box-shadow: 0px 0px 18px 11px rgba(37, 37, 37, 0.84);
+		-moz-box-shadow: 0px 0px 18px 11px rgba(37, 37, 37, 0.84);
+		-webkit-box-shadow: 0px 0px 18px 11px rgba(37, 37, 37, 0.84);
+	}
+
+
+
+	table{
+		width:100%;
+		float:right;		
+	}
+
+	tr{
+		background-color:#155891;
+		background: -moz-linear-gradient(#2a5a8f, rgba(50, 20, 70, 0.3));
+		background: -webkit-linear-gradient(#2a5a8f, rgba(50, 20, 70, 0.3));
+		background:    -moz-linear-gradient(#2a5a8f, rgba(50, 20, 70, 0.3));
+		background:     -ms-linear-gradient(#2a5a8f, rgba(50, 20, 70, 0.3));
+		background:      -o-linear-gradient(#2a5a8f, rgba(50, 20, 70, 0.3));
+		background: 	    linear-gradient(#2a5a8f, rgba(50, 20, 70, 0.3));
+		height:50px;	
+	}
+
+	tr:hover{
+		background-color:#5885ac;     
+	  	background: -moz-linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		background: -webkit-linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		background:    -moz-linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		background:     -ms-linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		background:      -o-linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		background: 	    linear-gradient(#51C3FA, rgba(81, 195, 250, 0));	
+	}
+
+	td{
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:2px;
+		padding-bottom:2px;
+
+	}
+
+	td:hover{
+		font-weight:bold;
+
+
+
+		cursor:url("../img/cur/curseurOrange.cur"), pointer;
+	}
+
+	p:hover{
+		font-weight:bold;
+		cursor:url("../img/cur/curseurOrange.cur"), pointer;
+	}
+
+	footer{
+		clear: both;
+		float:left;
+		position:relative;
+		height:10%;
+		margin-top:-55px;
+		margin-left:5px;
+		margin-bottom:5px;
+	}
+
+	#barreBasse{
+		position:relative;
+		margin-bottom:-5px;
+	}
+
+	input{
+		cursor:url("../img/cur/curseurOrange.cur"), pointer;
+	
+	}
+
+	#submit{
+		cursor:url("../img/cur/curseurOrange.cur"), pointer;
+		background: -moz-linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		background: -webkit-linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		background:    -moz-linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		background:     -ms-linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		background:      -o-linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		background: 	    linear-gradient(#51C3FA, rgba(81, 195, 250, 0));
+		color:white;
+		width:75px;
+
+	}
+	#submit:hover{
+		background: -moz-linear-gradient(#51C3FA, rgba(50, 20, 70, 0.3));
+		background: -webkit-linear-gradient(#51C3FA, rgba(50, 20, 70, 0.3));
+		background:    -moz-linear-gradient(#51C3FA, rgba(50, 20, 70, 0.3));
+		background:     -ms-linear-gradient(#51C3FA, rgba(50, 20, 70, 0.3));
+		background:      -o-linear-gradient(#51C3FA, rgba(50, 20, 70, 0.3));
+		background: 	    linear-gradient(#51C3FA, rgba(50, 20, 70, 0.3));
+		font-weight:bold;
+	}
+	select{
+		cursor:url("../img/cur/curseurOrange.cur"), pointer;
+	}
+
+

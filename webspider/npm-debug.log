@@ -2,7 +2,7 @@
 1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
-1 verbose cli   'node-gui' ]
+1 verbose cli   'gui' ]
 2 info using npm@1.3.11
 3 info using node@v0.10.20
 4 verbose node symlink C:\Program Files\nodejs\\node.exe
@@ -12,8 +12,8 @@
 8 warn package.json webspider@0.0.0 No repository field.
 9 warn package.json webspider@0.0.0 No README data
 10 verbose readDependencies using package.json deps
-11 verbose cache add [ 'node-gui', null ]
-12 verbose cache add name=undefined spec="node-gui" args=["node-gui",null]
+11 verbose cache add [ 'gui', null ]
+12 verbose cache add name=undefined spec="gui" args=["gui",null]
 13 verbose parsed url { protocol: null,
 13 verbose parsed url   slashes: null,
 13 verbose parsed url   auth: null,
@@ -23,43 +23,75 @@
 13 verbose parsed url   hash: null,
 13 verbose parsed url   search: null,
 13 verbose parsed url   query: null,
-13 verbose parsed url   pathname: 'node-gui',
-13 verbose parsed url   path: 'node-gui',
-13 verbose parsed url   href: 'node-gui' }
-14 silly lockFile 18abe16a-node-gui node-gui
-15 verbose lock node-gui C:\Users\Gildas\AppData\Roaming\npm-cache\18abe16a-node-gui.lock
-16 silly lockFile 18abe16a-node-gui node-gui
-17 silly lockFile 18abe16a-node-gui node-gui
-18 verbose addNamed [ 'node-gui', '' ]
+13 verbose parsed url   pathname: 'gui',
+13 verbose parsed url   path: 'gui',
+13 verbose parsed url   href: 'gui' }
+14 silly lockFile d6a7af13-gui gui
+15 verbose lock gui C:\Users\Gildas\AppData\Roaming\npm-cache\d6a7af13-gui.lock
+16 silly lockFile d6a7af13-gui gui
+17 silly lockFile d6a7af13-gui gui
+18 verbose addNamed [ 'gui', '' ]
 19 verbose addNamed [ null, '*' ]
-20 silly lockFile ee836a73-node-gui node-gui@
-21 verbose lock node-gui@ C:\Users\Gildas\AppData\Roaming\npm-cache\ee836a73-node-gui.lock
-22 silly addNameRange { name: 'node-gui', range: '*', hasData: false }
-23 verbose url raw node-gui
-24 verbose url resolving [ 'https://registry.npmjs.org/', './node-gui' ]
-25 verbose url resolved https://registry.npmjs.org/node-gui
-26 info trying registry request attempt 1 at 12:00:20
-27 http GET https://registry.npmjs.org/node-gui
-28 http 404 https://registry.npmjs.org/node-gui
-29 silly registry.get cb [ 404,
-29 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
-29 silly registry.get     date: 'Fri, 18 Oct 2013 10:00:17 GMT',
-29 silly registry.get     'content-type': 'application/json',
-29 silly registry.get     'content-length': '52',
-29 silly registry.get     'cache-control': 'must-revalidate' } ]
-30 silly lockFile ee836a73-node-gui node-gui@
-31 silly lockFile ee836a73-node-gui node-gui@
-32 error 404 'node-gui' is not in the npm registry.
-32 error 404 You should bug the author to publish it
-32 error 404
-32 error 404 Maybe try 'npm search gui'
-32 error 404
-32 error 404 Note that you can also install from a
-32 error 404 tarball, folder, or http url, or git url.
-33 error System Windows_NT 6.1.7601
-34 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-gui"
-35 error cwd C:\Users\Gildas\CoursSIL\Cours\Javascript\tpJs\webspider
-36 error node -v v0.10.20
-37 error npm -v 1.3.11
-38 error code E404
-39 verbose exit [ 1, true ]
+20 silly lockFile 11c16b3e-gui gui@
+21 verbose lock gui@ C:\Users\Gildas\AppData\Roaming\npm-cache\11c16b3e-gui.lock
+22 silly addNameRange { name: 'gui', range: '*', hasData: false }
+23 verbose url raw gui
+24 verbose url resolving [ 'https://registry.npmjs.org/', './gui' ]
+25 verbose url resolved https://registry.npmjs.org/gui
+26 info trying registry request attempt 1 at 18:52:10
+27 verbose etag "478861U98MXVDOKGO7C9R4703"
+28 http GET https://registry.npmjs.org/gui
+29 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+30 info trying registry request attempt 2 at 18:52:42
+31 verbose etag "478861U98MXVDOKGO7C9R4703"
+32 http GET https://registry.npmjs.org/gui
+33 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+34 info trying registry request attempt 3 at 18:54:03
+35 verbose etag "478861U98MXVDOKGO7C9R4703"
+36 http GET https://registry.npmjs.org/gui
+37 silly registry.get cb [ 304, undefined ]
+38 verbose etag gui from cache
+39 silly addNameRange number 2 { name: 'gui', range: '*', hasData: true }
+40 silly addNameRange versions [ 'gui', [ '0.0.1' ] ]
+41 verbose addNamed [ 'gui', '0.0.1' ]
+42 verbose addNamed [ '0.0.1', '0.0.1' ]
+43 silly lockFile 699b3eaf-gui-0-0-1 gui@0.0.1
+44 verbose lock gui@0.0.1 C:\Users\Gildas\AppData\Roaming\npm-cache\699b3eaf-gui-0-0-1.lock
+45 silly lockFile 699b3eaf-gui-0-0-1 gui@0.0.1
+46 silly lockFile 699b3eaf-gui-0-0-1 gui@0.0.1
+47 silly lockFile 11c16b3e-gui gui@
+48 silly lockFile 11c16b3e-gui gui@
+49 silly resolved [ { name: 'gui',
+49 silly resolved     description: 'GTK+ porting for node.js',
+49 silly resolved     keywords: [ 'GTK+', 'gui' ],
+49 silly resolved     version: '0.0.1',
+49 silly resolved     author: { name: 'Zhao Cheng', email: 'zcbenz@gmail.com' },
+49 silly resolved     repository: { type: 'git', url: 'https://github.com/zcbenz/node-gui.git' },
+49 silly resolved     bugs: { url: 'https://github.com/zcbenz/node-gui/issues' },
+49 silly resolved     scripts:
+49 silly resolved      { preinstall: 'node-waf configure',
+49 silly resolved        install: 'node-waf build install' },
+49 silly resolved     os: [ 'linux', 'darwin', 'freebsd', 'windows' ],
+49 silly resolved     homepage: 'https://github.com/zcbenz/node-gui',
+49 silly resolved     config: { native: true },
+49 silly resolved     engines: { node: '>=0.5.8' },
+49 silly resolved     licenses: [ [Object] ],
+49 silly resolved     readme: 'node-gui\n========\n\nnode-gui binds GTK+2.0 to node.js, it aims to be perfectly integrated into\nnode.\n\nFeatures\n--------\n\n - A decent C++ framework to (manually) convert GTK+ calls to node calls.\n   You can add a new Widget class in less than a dozen lines.\n - GtkBuilder (and glade) is supported.\n - Gtk+ classes can get created and inherited.\n - Complete support for signals and object properties.\n - GTK+ main loop lives very well with node, which means you can use node\n   stuff with GTK+ stuff perfectly together.\n - You can manually manage GTK+ Widget\'s life, just like what you do in C.\n - g_object_new style constructor.\n\nWhat have not been done\n-----------------------\n\n - Methods that need to pass Enum types are not done.\n - TreeModel and TreeView and their siblings are not done, their C API is not\n   very friendly to language bindings.\n - Many many complex methods are not done yet, I need your help.\n\nInstall Guide\n=============\n\nOn POSIX environments\n---------------------\n\nFirst you need to get a modern C++ compiler (GCC 4.6 or above is preffered,\nwhich is shipped by most distributions), and then GTK+ development headers\nare needed.\n\nTo install the dependencies, on fedora, you can do\n\n````\nyum install gcc-c++ gtk+-devel\n````\n\nOr on ubuntu\n\n````\nsudo apt-get install build-essential libgtk2.0-dev\n````\n\nThen you can compile and install the module\n\n````\nnode-waf configure build install\n````\n\nOn Windows\n----------\n\nThe Windows porting of node does not support C++ native module now, in\norder to use `node-gui` in Windows, you need to compile `node-gui` as\na part of node (which is rather hard work). I have done it and the compiled\nbinaries will provided in near future.\n\nIn the meantime, you also need to ship all GTK+ runtime with your app, they\ncan be downloaded [here](http://sourceforge.net/projects/gtk-win/).\n\nTutorial\n========\n\nA simple example\n----------------\n\n````javascript\nvar gui = require (\'gui\');\n\nvar window = new gui.Window ({\n    \'title\': \'node-gui\'\n    \'window-position\': 1,\n    \'opacity\': 0.5\n});\nwindow.show ();\n````\n\nHow it works\n------------\nFirst, we should include the module\n\n````javascript\nvar gui = require (\'gui\');\n````\n\nThen, all GTK+ widgets can be constructed by calling\n`new Type (parameters)`, following codes created\na new Window with `title` set to `node-gui`, `opacity` to half-opacity,\nand `window-position` to center screen. All possible properties can\nbe found at [GTK+ documentation](http://developer.gnome.org/gtk/2.24/GtkWindow.html).\n\n````javascript\nvar window = new gui.Window ({\n    \'title\': \'node-gui\'\n    \'window-position\': 1,\n    \'opacity\': 0.5\n});\n````\n\nAt last, we call the `show` method of Window. The method\'s name follows\n[GTK+ documentation](http://developer.gnome.org/gtk/2.24/GtkWindow.html),\nexcept that node-gui use `camelCase` style.\n\n````javascript\nwindow.show ();\n````\n\nUse gui.Builder\n---------------\n\nWith the help the [Glade](http://glade.gnome.org/), we can design the GUI\nin Glade and save the user interfaces as XML, then by using gui.Builder,\nthe GUI can be dynamically contructed at run time.\n\nSuppose we have an existing Glade output file `test.glade`, it includes\na Window naming `window`, then we can use following code to create the\nWindow from file.\n\n````javascript\nvar gui = require (\'gui\');\n\nnew gui.Builder(\'test.glade\', function (builder) {\n    var window = builder.get (\'window\', gui.Window);\n    window.show ();\n});\n````\n\nExplaining gui.Builder\n----------------------\n\nThe constructor of gui.Builder is \n\n````javascript\nnew Builder (\'/path/to/glade/file\', callBackWhenDone);\n````\n\n`gui.Builder` will read from `\'/path/to/glade/file\'` and then use GtkBuilder\nto create all objects and widgets from the file. After the construction,\n`callBackWhenDone` will be called and the `gui.Builder` instance \nwill be passed as the first argument.\n\nIn the `callBackWhenDone`, you can use `gui.Builder.get (\'name\', Type)` to \nreceive the actual object, object\'s type will be determined by the `Type`\nargument. The `name` is specified by Glade software.\n\nFor example, following calls are legal, because `window` is both a gui.Window\nand a gui.Widget according to the object hierarchy:\n\n````javascript\nvar window = builder.get (\'window\', gui.Window);\n    window = builder.get (\'window\', gui.Widget);\n    window = builder.get (\'window\', gui.Object);\n````\n\n`gui.Builder` will hold all object\'s life except for toplevel windows.\nWhen you call `builder.destroy ()`, all objects you got by\n`builder.get (...)` will be destroyed, except that all `gui.Window` widgets\nwill live. You must call `window.destroy ()` to destroy all toplevel\nwindows.\n\nSo a complete example will be\n\n````javascript\nvar gui = require (\'gui\');\n\nnew gui.Builder(\'test.glade\', function (builder) {\n    var window = builder.get (\'window1\', gui.Window);\n    var menu = builder.get (\'menu1\', gui.Menu);\n    var button = builder.get (\'button1\', gui.Button);\n    var label = builder.get (\'label1\', gui.Label);\n\n    window.show ();\n\n    builder.destroy ();\n    window.destroy ();\n});\n````\n\nSignals\n-------\n\nGTK+\'s signals are similar to node\'s events, signals will be emited when\nthere is new user interface events.\n\nUsage of signals is the same with EventEmitter, by calling\n`on (\'signal-name\', callback)`, you will bind `callback` to the specified\nsignal.\n\nExample of combining menu and tray icon\n---------------------------------------\n\nFollowing example will show a `gui.StatusIcon` on your system tray (or \nnotification area. Right clicks on the icon will show a menu.\n\n````javascript\nvar gui = require (\'gui\');\n\nnew gui.Builder(\'clip.glade\', function (builder) {\n    var menu = builder.get (\'menu\', gui.Menu);\n\n    var tray = new gui.StatusIcon ({\n        \'title\': \'node-gui\'\n    });\n    tray.setFromFile (\'clip.png\');\n    tray.on (\'activate\', function () {\n        console.log (\'left click\');\n    }\n    tray.on (\'popup-menu\', function (button, activate_time) {\n        menu.popup (tray, button, activate_time);\n    });\n});\n````\n\nFirst we create a `gui.StatusIcon` with property `title` set to `haha`,\nand then we set its icon:\n\n````javascript\nvar tray = new gui.StatusIcon (\'title\', \'haha\');\ntray.setFromFile (\'clip.png\');\n````\n\nThe left-clicking events\'s signal name is `activate`, the right-clicking\nevents\'s signal name is `popup-menu`. `popup-menu` will pass the the \nbutton that was pressed and the timestamp of the event that triggered\nthe signal emission. Then by calling `menu.popup` we can show the menu:\n\n````javascript\ntray.on (\'popup-menu\', function (button, activate_time) {\n    menu.popup (tray, button, activate_time);\n});\n````\n\nProperties\n----------\n\nAll objects have properties, you can use `setProperty` and `getProperty`\nto set/get an object\'s property.\n\n````javascript\nwidget.setProperty (\'has-focus\', true);\nwidget.setProperty (\'title\', \'a long text\');\n````\n\nEach type\'s available properties can be found at GTK+ documentation.\n\nWidget Management\n-----------------\n\n`node-gui` doesn\'t manage the life of GTK+ object, because V8\'s GC makes \nit hard to manage javascript objects\' life. If you want to destroy an\nGObject or a GtkWidget, you need to call `unref` or `destroy` or `free`,\naccording to what the GTK+ documentation says.\n\nWhat\'s more\n-----------\n\nCurrently I don\'t have time to write all the documentation of all widgets,\nif you want to use a widget, you need to consult the GTK+ documentation and\n`node-gui`\'s source code.\n\nWhy GTK+ on node\n================\n\nnode.js is very good at networking, though web applications are quite popular\nnow, desktop applications with network ability are still necessary. Despite\nthat there are many scripting languages with good GTK+ bindings, their\nnetwork function is not as good as node.js, so I decided to write `node-gui`,\nmaking node.js available for desktop.\n\nUnder the hood\n==============\n\n`node-gui` runs GTK+ main loop in new thread, methods that don\'t return \nresults will all be scheduled to run in the GTK+ thread, this is because\nGTK+ calls are usually expensive. And in order to make the API easy and \nnatural, methods that return results (like Window.getTitle) will run \nsynchronously.\n\nThe bindings are produced by C++ templates, which makes `node-gui` more \nreliable.\n\nLicense\n=======\n\n(The MIT License)\n\nCopyright (c) 2011-2012 Zhao Cheng and contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \'Software\'), to deal in\nthe Software without restriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or sell copies of the\nSoftware, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n',
+49 silly resolved     readmeFilename: 'README.md',
+49 silly resolved     _id: 'gui@0.0.1',
+49 silly resolved     _from: 'gui@' } ]
+50 info install gui@0.0.1 into C:\Users\Gildas\Documents\GitHub\Ex2-scraperJS-\webspider
+51 info installOne gui@0.0.1
+52 error notsup Unsupported
+52 error notsup Not compatible with your operating system or architecture: gui@0.0.1
+52 error notsup Valid OS:    linux,darwin,freebsd,windows
+52 error notsup Valid Arch:  any
+52 error notsup Actual OS:   win32
+52 error notsup Actual Arch: x64
+53 error System Windows_NT 6.1.7601
+54 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gui"
+55 error cwd C:\Users\Gildas\Documents\GitHub\Ex2-scraperJS-\webspider
+56 error node -v v0.10.20
+57 error npm -v 1.3.11
+58 error code EBADPLATFORM
+59 verbose exit [ 1, true ]
