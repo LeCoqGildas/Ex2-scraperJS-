@@ -286,3 +286,4 @@ console.red('Web UI Listening on port '+PORT);
 // #debug Start the crawler with a link
 get_page('http://twitter.com/FGRibreau');
 
+module.exports = scraper;
