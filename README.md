@@ -31,4 +31,4 @@ I also verificate if the links are no duplicates in the BDD
 
 I have a module queue for tack all links
 
-For the HUD, i can't setup node-gui... i dont know why ><
+I add one api :)
