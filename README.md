@@ -1,34 +1,28 @@
 Ex2-scraperJS-
 ==============
+LE COQ GILDAS, LP SIL
 
-This scraper are changed, I use WINDOWS!
+Use WINDOWS!
 
-I added a colorful console, 
-* -> color green this take the current date.
+For run the scraper:
+FIRST run mongoDB (please install this in C:/mongodb):
+  -  C:\mongodb\bin\mongod.exe --dbpath C:\mongodb\data
+  -  or run serveurMongoDB.bat
+NEXT run in ScraperWebKIt/
+  nw.exe app.nw
 
-* -> color red is loading, and BDD information (if the link is already in mongoDB etc)
+The api can scrap urls, and look a litle descrition of this.
 
-* -> color yellow is page infomation
+The BDD not accept double urls, it's name is scraper, if you would lick to see the links in the bdd you can try:
+  - go to C:/mongodb/bin
+  - run mongo.exe
+  - in the console, try:
+      - use scraper
+  if you ould lick to see all links try:
+	- db.urls.find()
+	or if you would lick to remove this try:
+	- db.urls.remove()
+	
 
-* -> color blue is pages scraped
-
-You can see a litle description of the header pages who are getted (Yellow)
-* -> page size
-
-* -> language/server behind the web page (php ? apache ? nginx ? using X-Powered-By)
-
-* -> was compression active ? (Content-Encoding: gzip ?)
-
-* -> the Content-Type
-
-EVERY scrapped pages goes into a database (MongoDB)
-I setup mongoDB in C:/ for setup this you can see:
-//http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/
-//http://www.atinux.fr/2011/10/15/tutoriel-sur-mongoose-mongodb-avec-node-js/
-(you can see more information in scraper.js)
-
-I also verificate if the links are no duplicates in the BDD
-
-I have a module queue for tack all links
-
-I add one api :)
+In a first time y develop this in console, a added colors...
+but in the webKit console, the colors are not interpreted
